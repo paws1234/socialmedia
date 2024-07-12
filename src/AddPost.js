@@ -7,7 +7,7 @@ const AddPost = ({ setPosts, currentUserId }) => {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://socialm.rf.gd/backend/add_post.php', {
+            const response = await fetch('https://socialm.rf.gd/backend/add_post.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
