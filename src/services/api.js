@@ -36,7 +36,7 @@ export const addPost = async (post) => {
 
 export const searchUsers = async (name) => {
     try {
-        const response = await fetch(`http://localhost/Project/Social-Media/backend/search_users.php?name=${name}`);
+        const response = await fetch(`http://socialm.rf.gd/backend/search_users.php?name=${name}`);
         if (!response.ok) {
             throw new Error('Failed to fetch');
         }

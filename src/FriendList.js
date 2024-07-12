@@ -16,7 +16,7 @@ const FriendList = ({ currentUserId }) => {
         setError(null);
         try {
             console.log('Fetching friends for userId:', userId);
-            const response = await fetch(`http://localhost/Project/Social-Media/backend/friend_list.php?user_id=${userId}`);
+            const response = await fetch(`http://socialm.rf.gd/backend/friend_list.php?user_id=${userId}`);
             if (!response.ok) {
                 throw new Error('Failed to fetch friends');
             }
