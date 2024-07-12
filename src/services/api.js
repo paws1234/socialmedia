@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost/Project/Social-Media/backend';
+const API_URL = 'http://socialm.rf.gd/backend';
 
 export const register = async (user) => {
     const response = await fetch(`${API_URL}/register.php`, {
