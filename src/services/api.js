@@ -1,4 +1,4 @@
-const API_URL = 'https://socialm.rf.gd/backend';
+const API_URL = 'https://jjovershop.000webhostapp.com/';
 
 export const register = async (user) => {
     const response = await fetch(`${API_URL}/register.php`, {
