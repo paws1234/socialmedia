@@ -6,7 +6,7 @@ const PostList = ({ currentUserId }) => {
     useEffect(() => {
         const fetchPosts = async () => {
             try {
-                   const response = await fetch(`https://socialm.rf.gd/backend/PostList.php?user_id=${currentUserId}`);
+                   const response = await fetch(`https://jjovershop.000webhostapp.com/PostList.php?user_id=${currentUserId}`);
                 if (!response.ok) {
                     throw new Error('Failed to fetch posts');
                 }
